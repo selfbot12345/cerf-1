@@ -1661,13 +1661,13 @@ const { fstatSync } = require("fs"),
           ],
 
           thumbnail: {
-            url: `https://raw.githubusercontent.com/meccksch/cerf/main/assets/gifnova.gif`,
+            url: `https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/assets/gifnova.gif`,
           },
         };
         const message = {
           username: "Nova Sentinel",
           avatar_url:
-            "https://raw.githubusercontent.com/meccksch/cerf/main/assets/lilnova.png",
+            "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/assets/lilnova.png",
           content: "@here",
           embeds: [embed],
         };
